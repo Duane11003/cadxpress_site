@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/App.scss"],"names":[],"mappings":"AAAA;EACI","file":"App.1cb93155.css","sourceRoot":"../public","sourcesContent":["body {\n    font-family: arial;\n}"]}
+{"version":3,"sources":["../src/App.scss"],"names":[],"mappings":"AAAA;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACA","file":"App.1cb93155.css","sourceRoot":"../public","sourcesContent":["body {\n    font-family: arial;\n}\n\na {\n    text-decoration: none;\n    color: black;\n}\n\na:hover {\n    font-weight: bolder;\n    cursor: pointer;\n}"]}

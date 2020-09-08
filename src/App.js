@@ -1,12 +1,24 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { Switch, Route } from 'react-router-dom';
+
+
+
+import Header from '../src/components/Header'
+import AboutUs from './pages/About-Us/AboutUs'
+import Contact from './pages/Contact/Contact'
+import Services from './pages/Services/Services'
 
 function App() {
     return (
         <div>
-            <p>Hello World</p>
+            <Header />
+                <Switch>
+                  <Route exact path='/contact' component={Contact} />
+                  <Route exact path='/services' component={Services} />
+                  <Route exact path='/about' component={AboutUs} />
+                </Switch>
         </div>
     )
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+export default App;
