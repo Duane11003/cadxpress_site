@@ -17,9 +17,21 @@
       display: flex;
       align-items: center;
       justify-content: flex-end; 
+      margin-right: 2%;
     }
 
     .option {
         padding: 10px 15px
     }
 }
+
+@media screen and (max-width: 480px){
+  a.option {
+     display: none;
+  }
+ 
+  .header-1 {
+      font-size: 11vw;
+  }
+     
+ }
