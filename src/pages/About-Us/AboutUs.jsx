@@ -15,7 +15,7 @@ const AboutUs = () => {
             </div>
             <div className='about-us-inner-container'>
               <h2 className='about-us-header-2'>True Partnership</h2>
-              <p>We're in this together and the understanding that if your load doesn't get delivered on time affects us just as much as it affects you, so if you need a freight hauled with no stress? Say less and choose Cadxpress!</p>
+              <p>We're in this together and the understanding that if your load doesn't get delivered on time affects us just as much as it affects you, so if you need a freight hauled with no stress? Say less and choose <span className='bold'>Cadxpress!</span></p>
             </div>
         </div>
     )
