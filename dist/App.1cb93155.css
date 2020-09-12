@@ -1,14 +1,23 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-color: #e2e2e2;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #505050;
 }
 
 a:hover {
-  font-weight: bolder;
+  color: black;
   cursor: pointer;
 }
 

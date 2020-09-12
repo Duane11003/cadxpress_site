@@ -1,0 +1,50 @@
+body, html {
+    height: 100%
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.container {
+    background-color: rgb(39, 56, 126);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/truck.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-1 {
+    color: white;
+    font-size: 8vw;
+    padding-bottom: 0;
+    box-shadow: black;
+    margin: 250px 0 6px 0;
+
+}
+
+.body-text {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    max-width: 55em;
+    line-height: 3rem;
+}
+
+.header-2 {
+    font-size: 5vw;  
+    color: white;
+  }
+
+.inner-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
