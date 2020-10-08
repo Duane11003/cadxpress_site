@@ -27,9 +27,9 @@ const AboutUs = () => {
               <li>Full load (up to 45,000lbs)</li>
             </ul>
             <h1>Contact Us</h1>
-            <p>Communication is a must so don’t hesitate to get in touch...</p>
+            <h2>Communication is a must so don’t hesitate to get in touch...</h2>
             <p>Office Hours 7-6 CST M-F and Sat/Sun 11-5 <strong>(leave a message after hours and we’ll get back to you within 4 hours guaranteed).</strong></p>
-            <h3 style={{textAlign: 'center', marginTop: '30px'}}>XXX-XXX-XXXX | <a href='mailto:cadxpresstrucking@gmail.com'>cadxpresstrucking@gmail.com</a></h3>
+            <h3 style={{textAlign: 'center', marginTop: '30px'}}><a href='tel:XXX-XXX-XXXXX'>XXX-XXX-XXXX</a> | <a href='mailto:cadxpresstrucking@gmail.com'>cadxpresstrucking@gmail.com</a></h3>
             </div>
             </div>
     )

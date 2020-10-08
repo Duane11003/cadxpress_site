@@ -10,9 +10,9 @@ function Header() {
              Logo
         </Link>
          <div className='links'>
-            <Link className='option' to='/about'>About</Link>
+            {/* <Link className='option' to='/about'>About</Link>
             <Link className='option' to='/services'>Services</Link>
-            <Link className='option' to='/contact'>Contact Us</Link>
+            <Link className='option' to='/contact'>Contact Us</Link> */}
          </div>
      </div>
     )
