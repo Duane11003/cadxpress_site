@@ -16,8 +16,22 @@ const AboutUs = () => {
             <div className='about-us-inner-container'>
               <h2 className='about-us-header-2'>True Partnership</h2>
               <p>We're in this together and the understanding that if your load doesn't get delivered on time affects us just as much as it affects you, so if you need a freight hauled with no stress? Say less and choose <span className='bold'>Cadxpress!</span></p>
+            <h1>Services</h1>
+            <ul>
+              <li>Nationwide hauling</li>
+              <li>2 drivers = 20 hours of driving per day per truck (under normal circumstances)</li>
+              <li>Dry loads</li>
+              <li> Refrigerated loads</li>
+              <li>Single item</li>
+              <li>Half load</li>
+              <li>Full load (up to 45,000lbs)</li>
+            </ul>
+            <h1>Contact Us</h1>
+            <p>Communication is a must so don’t hesitate to get in touch...</p>
+            <p>Office Hours 7-6 CST M-F and Sat/Sun 11-5 <strong>(leave a message after hours and we’ll get back to you within 4 hours guaranteed).</strong></p>
+            <h3 style={{textAlign: 'center', marginTop: '30px'}}>XXX-XXX-XXXX | <a href='mailto:cadxpresstrucking@gmail.com'>cadxpresstrucking@gmail.com</a></h3>
             </div>
-        </div>
+            </div>
     )
 }
 

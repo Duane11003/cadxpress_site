@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components'
 
 const Services = () => {
   return (
@@ -18,5 +19,10 @@ const Services = () => {
       </div>
   )
 }
+
+const StyledOuterDiv = styled.div`
+display: flex;
+
+`
 
 export default Services;

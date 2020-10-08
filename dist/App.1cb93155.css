@@ -21,4 +21,10 @@ a:hover {
   cursor: pointer;
 }
 
+h1 {
+  font-size: 2.5rem;
+  color: #254fa9;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 /*# sourceMappingURL=/App.1cb93155.css.map */
