@@ -7,7 +7,7 @@ function Header() {
     return (
      <div className='header'>
          <Link className='logo-container' to='/'>
-             Logo
+             Logo Goes Here
         </Link>
          <div className='links'>
             {/* <Link className='option' to='/about'>About</Link>
